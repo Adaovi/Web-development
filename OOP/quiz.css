@@ -1,0 +1,13 @@
+p, td{
+    color: red;
+}
+
+div > h1 {
+    background-color: blueviolet;
+    font-size: x-large;
+}
+
+table, th { 
+    border: 1px solid;
+}
+
