@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script lang="javascritp">
+console.log('ready for spread operator study')
+
+const arr1 = [1,2,3,4,5,7,2,3,4,9,2,7,4,2,9,4]
+const arr2 = [6,7,8,9,10,3,45,9,35,7,34,57,9,43,7,5]
+//an array is called as iterable coz, we can move from one data to another like a loop
+
+//if I want to join both the arrays given above
+
+const finalarr= [...arr1, ...arr2];
+console.log(finalarr);
+
+
+//example 2
+
+const scorelist1 = [23,43,12,34]
+const backup = [...scorelist1]  //copying the scorelist1 into backup
+backup.push(2000)
+console.log(`Back up data is ${backup}`)
+console.log(`Original scorelist 1 data is ${scorelist1}`)
+
+
+
+
+
+
+
+</script>
+</html>
